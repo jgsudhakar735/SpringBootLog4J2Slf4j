@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /sblog4jslf4j
+  port: 9090
+
+spring:
+  application:
+    name: springboot-log4j
+  flyway:
+    enabled: false
+  main:
+    banner-mode: console
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+
